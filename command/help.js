@@ -23,135 +23,132 @@ ${mundur}
  • Downloads : ${download}
 
 *BOT INFO*
- • Bot Name : ${botName}
- • Time : ${jam}
- • Date : ${tanggal(new Date())}
- • Runtime : ${runtime(process.uptime())}
+ 𒆜 Bot Name : ${botName}
+ 𒆜 Time : ${jam}
+ 𒆜 Date : ${tanggal(new Date())}
+ 𒆜 Runtime : ${runtime(process.uptime())}
 
 *USER INFO*
- • Name : ${pushname !== undefined ? pushname : '-'}
- • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
- • Limit : ${isCreator ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
- • Limit Game : ${isCreator ? '-' : cekGLimit(sender, gcount, glimit)}
- • Balance : ${toCommas(getBalance(sender, balance))}
+ 𒆜 Name : ${pushname !== undefined ? pushname : '-'}
+ 𒆜 Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+ 𒆜 Limit : ${isCreator ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+ 𒆜 Limit Game : ${isCreator ? '-' : cekGLimit(sender, gcount, glimit)}
+ 𒆜 Balance : ${toCommas(getBalance(sender, balance))}
 
-*MAIN MENU*${petik}
- • ${prefix}speed
+*MAIN MENU*
+ ༢࿔ྀ ${prefix}speed
 
+*CONVERTER/TOOLS*
+ ༢࿔ྀ ${prefix}sticker
+ ༢࿔ྀ ${prefix}stickerwm
+ ༢࿔ྀ ${prefix}smeme
+ ༢࿔ྀ ${prefix}toimg
+ ༢࿔ྀ ${prefix}tovideo
+ ༢࿔ྀ ${prefix}tomp3
+ ༢࿔ྀ ${prefix}ttp
+ ༢࿔ྀ ${prefix}attp
+ ༢࿔ྀ ${prefix}emojimix
+ ༢࿔ྀ ${prefix}nuliskiri
+ ༢࿔ྀ ${prefix}nuliskanan
+ ༢࿔ྀ ${prefix}foliokiri
+ ༢࿔ྀ ${prefix}foliokanan
+ ༢࿔ྀ ${prefix}say
+ ༢࿔ྀ ${prefix}translate
 
-*CONVERTER/TOOLS*${petik} 
- • ${prefix}sticker
- • ${prefix}stickerwm
- • ${prefix}smeme
- • ${prefix}toimg
- • ${prefix}tovideo
- • ${prefix}tomp3
- • ${prefix}ttp
- • ${prefix}attp
- • ${prefix}emojimix
- • ${prefix}nuliskiri
- • ${prefix}nuliskanan
- • ${prefix}foliokiri
- • ${prefix}foliokanan
- • ${prefix}say
- • ${prefix}translate${petik}
+*ANONYMOUS CHATS*
+ ༢࿔ྀ ${prefix}anonymous
+ ༢࿔ྀ ${prefix}start
+ ༢࿔ྀ ${prefix}next
+ ༢࿔ྀ ${prefix}stop
+ ༢࿔ྀ ${prefix}sendprofile
 
-*ANONYMOUS CHATS*${petik}
- • ${prefix}anonymous
- • ${prefix}start
- • ${prefix}next
- • ${prefix}stop
- • ${prefix}sendprofile${petik}
+*DOWNLOADS MENU*
+ ༢࿔ྀ ${prefix}play
+ ༢࿔ྀ ${prefix}ytmp3
+ ༢࿔ྀ ${prefix}ytmp4
+ ༢࿔ྀ ${prefix}instagram
+ ༢࿔ྀ ${prefix}igstory
+ ༢࿔ྀ ${prefix}tiktok
+ ༢࿔ྀ ${prefix}tiktoknowm
+ ༢࿔ྀ ${prefix}tiktokaudio
+ ༢࿔ྀ ${prefix}mediafire
+ ༢࿔ྀ ${prefix}gitclone
 
-*DOWNLOADS MENU*${petik}
- • ${prefix}play
- • ${prefix}ytmp3
- • ${prefix}ytmp4
- • ${prefix}instagram
- • ${prefix}igstory
- • ${prefix}tiktok
- • ${prefix}tiktoknowm
- • ${prefix}tiktokaudio
- • ${prefix}mediafire
- • ${prefix}gitclone${petik}
+*GROUP MENU*
+ ༢࿔ྀ ${prefix}afk
+ ༢࿔ྀ ${prefix}welcome
+ ༢࿔ྀ ${prefix}left
+ ༢࿔ྀ ${prefix}setwelcome
+ ༢࿔ྀ ${prefix}changewelcome
+ ༢࿔ྀ ${prefix}delsetwelcome
+ ༢࿔ྀ ${prefix}setleft
+ ༢࿔ྀ ${prefix}changeleft
+ ༢࿔ྀ ${prefix}delsetleft
+ ༢࿔ྀ ${prefix}linkgc
+ ༢࿔ྀ ${prefix}setppgc
+ ༢࿔ྀ ${prefix}setnamegc
+ ༢࿔ྀ ${prefix}setdesc
+ ༢࿔ྀ ${prefix}antilink
+ ༢࿔ྀ ${prefix}antiwame
+ ༢࿔ྀ ${prefix}open
+ ༢࿔ྀ ${prefix}close
+ ༢࿔ྀ ${prefix}add
+ ༢࿔ྀ ${prefix}kick
+ ༢࿔ྀ ${prefix}promote
+ ༢࿔ྀ ${prefix}demote
+ ༢࿔ྀ ${prefix}revoke
+ ༢࿔ྀ ${prefix}hidetag
 
-*GROUP MENU*${petik}
- • ${prefix}afk
- • ${prefix}welcome
- • ${prefix}left
- • ${prefix}setwelcome
- • ${prefix}changewelcome
- • ${prefix}delsetwelcome
- • ${prefix}setleft
- • ${prefix}changeleft
- • ${prefix}delsetleft
- • ${prefix}linkgc
- • ${prefix}setppgc
- • ${prefix}setnamegc
- • ${prefix}setdesc
- • ${prefix}antilink
- • ${prefix}antiwame
- • ${prefix}open
- • ${prefix}close
- • ${prefix}add
- • ${prefix}kick
- • ${prefix}promote
- • ${prefix}demote
- • ${prefix}revoke
- • ${prefix}hidetag
+*GAME MENU*
+ ༢࿔ྀ ${prefix}tictactoe
+ ༢࿔ྀ ${prefix}delttt
+ ༢࿔ྀ ${prefix}casino
+ ༢࿔ྀ ${prefix}delcasino
 
-*GAME MENU*${petik}
- • ${prefix}tictactoe
- • ${prefix}delttt
- • ${prefix}casino
- • ${prefix}delcasino${petik}
+*SEARCH MENU*
+ ༢࿔ྀ ${prefix}lirik
+ ༢࿔ྀ ${prefix}grupwa
+ ༢࿔ྀ ${prefix}pinterest
+ ༢࿔ྀ ${prefix}ytsearch
 
-*SEARCH MENU*${petik}
- • ${prefix}lirik
- • ${prefix}grupwa
- • ${prefix}pinterest
- • ${prefix}ytsearch
- • ${prefix}searchbyimage${petik}
-
-*STORAGE*${petik}
- • ${prefix}addstik
- • ${prefix}addvn
- • ${prefix}addimg
- • ${prefix}addvid
- • ${prefix}liststik
- • ${prefix}listvn
- • ${prefix}listimg
- • ${prefix}listvid${petik}
+*STORAGE*
+ ༢࿔ྀ ${prefix}addstik
+ ༢࿔ྀ ${prefix}addvn
+ ༢࿔ྀ ${prefix}addimg
+ ༢࿔ྀ ${prefix}addvid
+ ༢࿔ྀ ${prefix}liststik
+ ༢࿔ྀ ${prefix}listvn
+ ༢࿔ྀ ${prefix}listimg
+ ༢࿔ྀ ${prefix}listvid
  
-*BAILEYS*${petik}
- • ${prefix}fitnah
- • ${prefix}nowa
- • ${prefix}getquoted
- • ${prefix}fakehidetag
- • ${prefix}react
- • ${prefix}setcmd
- • ${prefix}delcmd${petik}
+*BAILEYS*
+ ༢࿔ྀ ${prefix}fitnah
+ ༢࿔ྀ ${prefix}getquoted
+ ༢࿔ྀ ${prefix}fakehidetag
+ ༢࿔ྀ ${prefix}react
+ ༢࿔ྀ ${prefix}setcmd
+ ༢࿔ྀ ${prefix}delcmd
 
-*OWNERS MENU*${petik}
- • ${prefix}autobio
- • ${prefix}autorespond
- • ${prefix}anticall
- • ${prefix}autoblok
- • ${prefix}join
- • ${prefix}left
- • ${prefix}self
- • ${prefix}public
- • ${prefix}setppbot
- • ${prefix}broadcast
- • ${prefix}bcimg
- • ${prefix}bcstik
- • ${prefix}bcvn
- • ${prefix}bcvideo
- • ${prefix}bcsewa
- • ${prefix}addpremium
- • ${prefix}delpremium
- • ${prefix}addsewa
- • ${prefix}delsewa${petik}
+*𝕭𝖔𝖙 • Andii ༢࿔ྀ*
+ ༢࿔ྀ ${prefix}autobio
+ ༢࿔ྀ ${prefix}autorespond
+ ༢࿔ྀ ${prefix}anticall
+ ༢࿔ྀ ${prefix}autoblok
+ ༢࿔ྀ ${prefix}join
+ ༢࿔ྀ ${prefix}left
+ ༢࿔ྀ ${prefix}self
+ ༢࿔ྀ ${prefix}public
+ ༢࿔ྀ ${prefix}setppbot
+ ༢࿔ྀ ${prefix}broadcast
+ ༢࿔ྀ ${prefix}bcimg
+ ༢࿔ྀ ${prefix}bcstik
+ ༢࿔ྀ ${prefix}bcvn
+ ༢࿔ྀ ${prefix}bcvideo
+ ༢࿔ྀ ${prefix}bcsewa
+ ༢࿔ྀ ${prefix}addpremium
+ ༢࿔ྀ ${prefix}delpremium
+ ༢࿔ྀ ${prefix}addsewa
+ ༢࿔ྀ ${prefix}delsewa
 `
 }
 
