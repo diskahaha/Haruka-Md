@@ -63,19 +63,6 @@ ${mundur}
  • ${prefix}stop
  • ${prefix}sendprofile${petik}
 
-*STORE MENU*${petik}
- • ${prefix}list
- • ${prefix}addlist
- • ${prefix}dellist
- • ${prefix}update
- • ${prefix}jeda
- • ${prefix}tambah
- • ${prefix}kurang
- • ${prefix}kali
- • ${prefix}bagi
- • proses < reply chat >
- • done < reply chat >${petik}
-
 *DOWNLOADS MENU*${petik}
  • ${prefix}play
  • ${prefix}ytmp3
